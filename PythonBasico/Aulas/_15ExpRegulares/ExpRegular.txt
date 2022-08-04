@@ -1,0 +1,28 @@
+- Encontrar posicoes de padroes dentro de uma string, caso estejam
+presentes (metodo search).
+- Encontrar se o comeco de uma string eh igual a um determinado padrao
+(metodo match)  .
+- Encontrar todas as substrings em uma string que correspondam a um padrao
+(metodo findall) Ex: correspondecia, Substring = corre ou rres ,
+Isso seria qualquer conjunto de letras dentro de uma palavra.
+
+----Exp--Regulares------------------------------------------
+----METACARACTERES------------------------------------------
+.  - Qualquer caractere (exceto linha nova)
+\w - Qualquer caractere alfanumerico
+\W - Qualquer caractere nao alfanumerico
+\d - Qualquer caractere que seja um digito (0-9)
+\D - Qualquer caractere que nao seja um digito
+\s - Espaco em branco
+^  - Comeca com
+$  - Termina com
+\  - usado antes de metacaracteres para especificar significado litral
+Exemplo \. busca pontos ao inves de caracteres
+----Quantificadores------------------------------------------
+[] - Opcional entre os que estao dentro dos colchetes
+() - Captura grupos de caracteres
+*  - de zero a mais vezes
+?  - zero ou uma vez
++  - uma ou mais vezes
+{m,n} - de m a n vezes
+| - ou
