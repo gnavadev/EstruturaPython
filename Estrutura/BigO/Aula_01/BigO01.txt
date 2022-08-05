@@ -1,0 +1,4 @@
+. Como comparar 2 algoritmos
+. Comparacao objetiva entre algoritmos
+. Considera diferencas entre poder de processamento, OS, Linguagem
+. O Quanto a complexidade do algoritmo aumenta de acordo com as entradas
