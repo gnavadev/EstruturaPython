@@ -3,8 +3,6 @@
 #     print("Texto da função")
 # mensagem()
 
-from tkinter import E
-
 
 def mensagem(texto):
     print(texto)

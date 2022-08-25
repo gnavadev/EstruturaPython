@@ -3,15 +3,15 @@ import numpy as np
 matriz = np.array([[2, 3, 1],  # Matriz com 2 linhas e 3 colunas
                   [4, 5, 7]])
 
-print(matriz)
+# print(matriz)
 
-print(matriz.shape)  # mostra (linhas,colunas) da matriz
-print(matriz[0])  # Retorna a primeira linha
-print(matriz[1])  # Retorna a segunda linha
+# print(matriz.shape)  # mostra (linhas,colunas) da matriz
+# print(matriz[0])  # Retorna a primeira linha
+# print(matriz[1])  # Retorna a segunda linha
 
-print(matriz[0][0])  # Retorna o elemento da linha 0 coluna 0
+# print(matriz[0][0])  # Retorna o elemento da linha 0 coluna 0
 
-print("---------------------")
+# print("---------------------")
 
 
 for i in range(matriz.shape[0]):  # (Linhas,Colulas) nesse for estamos
